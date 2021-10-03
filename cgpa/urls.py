@@ -87,6 +87,7 @@ urlpatterns = [
     path('cse/cse7/',views.cse7,name='cse7'),
     path('cse/cse7/result7/',views.result7,name='result7'),
     path('cse/cse8/',views.cse8,name='cse8'),
+    path('cse/cse8/result8/',views.result8,name='result8'),
     path('ece/',views.ece,name='ece'),
     path('ece/ece1/',views.ece1,name='ece1'),
     path('ece/ece1/result',views.result,name='result'),
