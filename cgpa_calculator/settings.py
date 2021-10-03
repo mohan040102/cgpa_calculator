@@ -29,7 +29,9 @@ SECRET_KEY = 'django-insecure-*78$y4t(aim4%8hqbtq!d3(b@d%k*toh*1oo9zi#2!x16q)&*=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'cgpa-calculator.herokuapp.com'
+]
 
 
 # Application definition
