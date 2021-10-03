@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+        <h4>Select Your Department</h4>
+        {% for dept,name in mylist %}
+        <a href="{{ name }}" class="btn btn-light btn-lg" type="button" id="button-addon2">{{ dept }}</a>
+<br><br>
+        {% endfor %}
+{% endblock content %}

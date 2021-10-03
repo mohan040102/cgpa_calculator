@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Seclect The Semester</h2><br>
+{% for sem,name in mylist %}
+<a href="{{ name }}" class="btn btn-light btn-lg" type="button" id="button-addon2">{{ sem }}</a>
+<br><br>
+{% endfor %}
+{% endblock content %}
